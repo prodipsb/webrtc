@@ -19,7 +19,9 @@ const iceServers = {
 
 
 
-const pport = process.env.PORT || 3001;
+//const pport = process.env.PORT || 3001;
+
+const pport = 3001;
 
 const myPeer = new Peer(undefined, {
     host: '/',
