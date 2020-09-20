@@ -12,7 +12,7 @@ const iceServers = {
         {
             urls: 'turn:18.237.50.173:3478',
             username: 'jakar22',
-            crediential: 'jakirpass22'
+            crediential: 'jakirpass223'
         },
     ],
 }
