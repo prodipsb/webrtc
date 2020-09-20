@@ -17,9 +17,11 @@ const iceServers = {
     ],
 }
 
+const pport = process.env.PORT || 3001;
+
 const myPeer = new Peer(undefined, {
     host: '/',
-    port: '3001',
+    port: pport,
     iceServers: iceServers
 })
 const myVideo = document.createElement('video')
